@@ -11,6 +11,10 @@
     @apply font-sans antialiased;
   }
 }
+html,
+body {
+  overflow-x: hidden;
+}
 
 @layer utilities {
   .bg-grid-pattern {
