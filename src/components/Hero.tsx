@@ -110,9 +110,8 @@ const Hero = () => {
               </a>
             </div>
           </div>
-
           <a
-            href="/cv-fabian-menjura.pdf"
+            href="../assets/CV-Fabian-Menjura.pdf"
             download
             className="mt-12 flex items-center justify-center gap-2 px-6 py-3 text-gray-600 hover:text-blue-600 transition-colors group"
           >
