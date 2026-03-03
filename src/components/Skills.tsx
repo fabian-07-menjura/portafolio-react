@@ -101,7 +101,7 @@ const Skills = () => {
     <div ref={sectionRef} className="overflow-hidden bg-gray-50 " id="skills">
       <div ref={sliderRef} className="container">
         <section className="section-horizontal section">
-          <h2 className="skills-title  text-4xl sm:text-5xl font-bold text-gray-900 mb-8">
+          <h2 className="skills-title  text-4xl sm:text-5xl font-bold text-gray-900 mb-8 text-center">
             Habilidades Técnicas
           </h2>
           <p className="text-center text-gray-600 mb-16 text-lg max-w-2xl mx-auto">
