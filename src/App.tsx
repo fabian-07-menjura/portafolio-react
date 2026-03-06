@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+
 import Navigation from "./components/Navigation";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -18,15 +19,11 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const handleLoad = () => {
+    const timer = setTimeout(() => {
       setLoading(false);
-    };
+    }, 1500);
 
-    window.addEventListener("load", handleLoad);
-
-    return () => {
-      window.removeEventListener("load", handleLoad);
-    };
+    return () => clearTimeout(timer);
   }, []);
 
   useEffect(() => {
